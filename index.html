@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PNG-TO-WEBP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-one">
+        <h1>PNG to WebP Converter</h1>
+        <div class="centerlize">
+        <input type="file" id="fileInput" accept=".png">
+        </div>
+        <button onclick="convertToWebP()">Convert</button>
+        <div id="output"></div>
+        <a id="downloadButton" download="converted.webp" style="display: none;"><button>Download WebP</button></a>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
